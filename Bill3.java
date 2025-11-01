@@ -10,6 +10,6 @@ public class Bill3 {
 		// step 3: dividing total sum by 3.
 		double share = Math.ceil(total / 3.0);
 		// step 4: printing output of the names by wanted order + each ones sum + manners as wanted.
-		System.out.println("dear " + name3 + ", " + name2 + " and " + name1 + " your share is " + share);
+		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + share + " each");
 		}
 }
