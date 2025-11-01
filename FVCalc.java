@@ -12,6 +12,6 @@ public class FVCalc {
       // step 5: calculating the sum according to the given formula.
       double futureValue = currentvalue * Math.pow(1 + result, n);
       // step 6: printing step 5 + manners as wanted.
-      System.out.println("After " + n + " years, $" + (int)currentvalue + " saved at " + (int)rate + "% will yield " + (int)futureValue);
+      System.out.println("After " + n + " years, $" + (int)currentvalue + " saved at " + (double)rate + "% will yield $" + (int)futureValue);
    }
 }
