@@ -10,6 +10,6 @@ public class NumWords {
 	// step 4: finding how many ones are in args[0] from step 1.
 	int units = fullNumber % 10;
 	// step 5: printing steps 2 - 4 + manners as wanted.
-	System.out.println(hundreds + " hundreds " + tens + " tens and " + units + " ones");
+	System.out.println(hundreds + " hundreds, " + tens + " tens, and " + units + " ones");
 	}
 }
